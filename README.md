@@ -33,7 +33,7 @@ To run the app locally, clone the repo and install the app using:
 
 ## Contributors :sparkler:
 
-This project is designed and developed by the [Chingu](https://www.chingu.io/) Voyage-28 Bears team 10 - [JonHill](https://github.com/jondhill333) [Armando](https://github.com/guarmo), [Greg](https://github.com/gregogun), and [Duncan](https://github.com/duncanjbain)
+This project is designed and developed by the [Chingu](https://www.chingu.io/) Voyage-28 Bears team 10 - [JonHill](https://github.com/jondhill333), [Armando](https://github.com/guarmo), [Greg](https://github.com/gregogun), and [Duncan](https://github.com/duncanjbain)
 
 ## Contributing
 
