@@ -9,7 +9,7 @@ const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 export default function VolunteersPage() {
   const { data, error } = useSWR(
-    "https://techvolunteer.vercel.app//api/jobs",
+    "https://techvolunteer.vercel.app/api/jobs",
     fetcher
   );
 
