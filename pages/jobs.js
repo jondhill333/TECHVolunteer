@@ -20,7 +20,7 @@ const fetcher = (...args) => fetch(...args).then((res) => res.json());
 export default function JobsPage() {
   const [loading, setLoading] = useState(false);
   const { data, error } = useSWR(
-    "https://v28-bears-team-10-kappa.vercel.app/api/jobs",
+    "https://tech-volunteer.vercel.app/api/jobs",
     fetcher
   );
 
