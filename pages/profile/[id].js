@@ -53,7 +53,7 @@ export default withPageAuthRequired(function profile() {
   // Get all jobs
   async function getJobs() {
     try {
-      const res = await axios.get("http://localhost:3000/api/jobs");
+      const res = await axios.get("https://techvolunteer.vercel.app/api/jobs");
       setJobs(res.data);
     } catch (err) {
       console.log(error);
@@ -64,13 +64,16 @@ export default withPageAuthRequired(function profile() {
   async function deleteJob(id) {
     try {
       if (currentUser) {
-        const res = await fetch(`http://localhost:3000/api/jobs/${id}`, {
-          method: "DELETE",
-          headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json",
-          },
-        });
+        const res = await fetch(
+          `https://techvolunteer.vercel.app/api/jobs/${id}`,
+          {
+            method: "DELETE",
+            headers: {
+              Accept: "application/json",
+              "Content-Type": "application/json",
+            },
+          }
+        );
       }
 
       toast({
@@ -92,7 +95,7 @@ export default withPageAuthRequired(function profile() {
     try {
       if (currentUser) {
         const res = await fetch(
-          `http://localhost:3000/api/users/${currentUser._id}`,
+          `https://techvolunteer.vercel.app/api/users/${currentUser._id}`,
           {
             method: "DELETE",
             headers: {
