@@ -25,8 +25,8 @@ It is also useful for charities as they can get help without having to pay for i
 To run the app locally, clone the repo and install the app using:
 
 ```
-  $ git clone https://github.com/chingu-voyages/v28-bears-team-10
-  $ cd v28-bears-team-10
+  $ git clone https://github.com/jondhill333/TECHVolunteer.git
+  $ cd TECHVolunteer
   $ npm install
   $ npm run dev
 ```
