@@ -39,8 +39,9 @@ This project is designed and developed by the [Chingu](https://www.chingu.io/) V
 
 Thanks for your interest in contributing! There are many ways to contribute to this project. Get [started here](CONTRIBUTING.md).
 
-Wishlist:
+Planned future improvements:
 
+- Overhaul the UI /color scheme / look and feel - what we have now is only the first draft
 - Filter on the volunteers page to filter results by certain metrics
 - Documentation page for help and FAQ's
 - Update tips on sign up forms
