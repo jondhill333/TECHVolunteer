@@ -10,7 +10,7 @@ This is intended to bridge the gap for aspiring developers/designers between the
 
 It is also useful for charities as they can get help without having to pay for it.
 
-[Checkout the demo](https://v28-bears-team-10-kappa.vercel.app/)
+[Checkout the demo](https://techvolunteer.vercel.app/)
 
 ## Tech stacks
 
